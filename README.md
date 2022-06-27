@@ -1,8 +1,8 @@
 # Generating Fictional Dialogues
 Using the GPT-J 6B (8 bit compression) to generate dialogues from prompted context.
-Prompts are bold, rest of the text is generated. No gradient updates were performed. 
+Check out the exmples below (prompts are bold, rest of the text is generated)
 
-## Zero Shot
+## 1. Zero Shot Approach
 The model generates tokens given only a natural language description of the task.
 > **Genre: Science Fiction.**
 
@@ -36,7 +36,7 @@ The model generates tokens given only a natural language description of the task
 
 > Bean: Black
 
-## One-Shot
+## 2. One-Shot Approach
 In addition to the task description, the model sees a single example of the task. 
 > **Genre: Science Fiction.**
 
@@ -68,7 +68,7 @@ In addition to the task description, the model sees a single example of the task
 
 > Bean: I don't think the ice cream will give me a heart attack. I think I can handle it as long as
 
-## Few-Shot
+## 3. Few-Shot Approach
 In addition to the task description, the model sees a few examples of the task.
 > **Genre: Science Fiction.**
 
