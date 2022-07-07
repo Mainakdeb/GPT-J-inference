@@ -1,6 +1,6 @@
 # Generating Fictional Dialogues
 Using the GPT-J 6B (8 bit compression) to generate dialogues from prompted context.
-Check out the exmples below (prompts are bold, rest of the text is generated)
+Check out the exmples below (prompts are bold, rest of the text is generated). (Works on Kaggle runtimes)
 
 ## 1. Zero Shot Approach
 The model generates tokens given only a natural language description of the task.
